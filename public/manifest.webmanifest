@@ -1,0 +1,16 @@
+{
+  "name": "Gypsum Katalog Pro",
+  "short_name": "Gypsum",
+  "description": "Katalog profesional gypsum rumahan",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2d2d2d",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "any",
+      "type": "image/x-icon"
+    }
+  ]
+}

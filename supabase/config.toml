@@ -1,0 +1,29 @@
+project_id = "gypsum-katalog-pro"
+
+[db]
+port = 5432
+pool_max_connections = 20
+
+[auth]
+site_url = "http://localhost:3000"
+additional_cookie_serializers = []
+enable_anonymous = false
+enable_email_autoconfirm = true
+enable_email_signup = false
+
+[auth.email]
+enable_signup = false
+
+[storage]
+enabled = true
+file_size_limit = "5MB"
+
+[functions]
+enable_legacy_edge_runtime = "nodejs"
+
+[graphql]
+enabled = true
+
+[projects]
+ref = "local"
+name = "gypsum-katalog-pro"
